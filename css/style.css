@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pacifico&family=Updock&display=swap');
+ 
+ body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+    background-color: rgb(244, 200, 215);   
+}    
+.container{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(182, 221, 236) 50%,rgb(213, 245, 241) 50%);
+}
+.image-2{
+    margin-left:50%;
+    margin-top: -35%;
+    border-radius: 50%;
+    border: 40px solid grey;
+    background-color: #9de7e7;
+    border-width: 50px;
+}
+.line::before::before{
+    content: "";
+    width: 20px;
+    height: 10px;
+
+}
+.top{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.top p{
+    color: orangered;
+    font-size: 20px;
+}
+
+h1 p{
+    margin-bottom: 50%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+span{
+    color: #0d0f0f;
+    width: 30%;
+
+}
+div.span{
+    display: flex;
+    padding: 2%;
+    font-size: 33px;
+    align-items: center;
+}
+.span h5{
+    margin-left: 50%;
+    font-size: 15px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a :hover{
+    color:  #02caca;
+}
+li a{
+    color: #000;
+    flex-direction: row-reverse;
+    font-size: 20px;
+}
+button{
+    background-color: #02caca;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 25px 30px;
+    border-radius: 30px;  
+}
+ .fa-play{
+    background-color: rgb(245, 248, 250);
+    border-radius: 50%;
+    padding: 2%;
+    color: #02caca;
+    margin-right: 200px;
+    margin-top: 10%;
+}
+button :hover{
+    transform: scale(1.2);
+}
+
+div.content{
+    background-color: rgb(101, 195, 195);
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin: 3%;   
+    border-radius: 10%; 
+    margin-left: 12%;
+    font-size: 15px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.container2 .box{
+    width: 900px;
+    display: flex;
+    max-width: 95%;
+    align-items: center;
+    margin: auto; 
+    align-items: center;  
+    background-color: rgb(181, 233, 216); 
+}
+.box img{
+    background-color: #02caca;
+}
+div.content2{
+    background-color: rgb(238, 243, 243);
+    width: 350px;
+    height: 260px;
+    float: left;
+    margin: 10px; 
+    margin-left: 12%;
+    font-size: 15px;
+    padding-right: 1%;
+    text-align: center;
+    font-size: 18px;
+    height: 70vh;
+}
+.fa-star{
+    color: yellow;
+    padding-top: -4%; 
+}
+.container3{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;  
+}
+.flex-box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(203, 232, 222);
+    margin-top: 10%;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 200%;
+    position: relative; 
+    margin-left: 35%;
+    margin-bottom: 13%;
+    background-color: aquamarine 40%;
+    width: 30%;
+}
+h3{
+    text-align: center;
+    margin-top: 20%;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 60%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #02caca;
+    outline: none;
+    border-radius: 20px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #02caca;
+    color: white;
+    top: 8px;
+    right: 8px;
+    width: 20%;
+}
+.container5{
+      background-color: rgb(106, 232, 225);
+      margin-top: 20%;
+      height: 50vh;
+
+  }
+  .foot-row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+  }
+  .footer-col ul li a{
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block; 
+}
+  .footer-col{
+   margin: auto;
+   list-style-type: none;
+   
+  }
+
+  .social{
+     margin-left: 16%;
+     padding: 3px;
+     
+  }
+  .footer-col h4{
+      font-size: 17px;
+      font-weight: bold;
+      color: #d6d0d0;
+      margin-bottom:auto;
+      font-weight: bold;
+      position: relative;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+
+
+
